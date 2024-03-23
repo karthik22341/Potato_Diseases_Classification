@@ -74,7 +74,7 @@ uvicorn main-tf-serving:app --reload --host 0.0.0.0
 
 5. Your API is now running at `0.0.0.0:8000`
 
-Web Interface
+## Web Interface
 To complete the project, add the HTML templates inside the templates folder at the project directory. Create two HTML files:
 
 upload.html: This page allows users to upload an image.
