@@ -74,3 +74,9 @@ uvicorn main-tf-serving:app --reload --host 0.0.0.0
 
 5. Your API is now running at `0.0.0.0:8000`
 
+Web Interface
+To complete the project, add the HTML templates inside the templates folder at the project directory. Create two HTML files:
+
+upload.html: This page allows users to upload an image.
+predict.html: This page displays the prediction results after the user uploads an image and clicks the predict button.
+Users can upload an image on the upload.html page, and upon clicking the predict button, they will be redirected to the predict.html page to view the results.
